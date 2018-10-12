@@ -19,10 +19,10 @@ Exercise: Begin the mini-capstone. Where do you start?
   git commit -m 'migrate data base'
   git push -u origin master
 
-4 - Create products either in the rails console or using the db/seeds.rb file!
+#4 - Create products either in the rails console or using the db/seeds.rb file!
   rails db:seed
 
-4.a - Use git to add, commit, and push your code.
+#4.a - Use git to add, commit, and push your code.
 
 5 - Create a route that displays JSON for all the available products.
 5.a - Use git to add, commit, and push your code.
