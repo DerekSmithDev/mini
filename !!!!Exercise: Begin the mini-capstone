@@ -1,0 +1,38 @@
+Exercise: Begin the mini-capstone. Where do you start?
+
+#1 - Create a new rails api app called mini-capstone with a postgres database (notice no `--database=postgresql`, this is because we just added defaults to our .railsrc file!):
+```rails new mini-capstone```
+#1.a - Use git to initialize, add, and commit your code.
+#1.b - Use GitHub to create a repo called mini-capstone, then copy and paste the commands to push your git repo to GitHub.
+
+#2 -  Create an `api/products` controller (plural!)
+#2.a Use git to add, commit, and push your code.
+
+#3 - Create a `Product` model (singular!). Some important attributes include `name`, `price` (integer), `image_url`, and `description`. DON'T MAKE AN ATTRIBUTE CALLED `type`!!!
+
+  rails generate model product name:string price:integer image_url:string description:string
+  gitsave
+  rails db:migrate
+
+#3.a - Use git to add, commit, and push your code.
+  git add --all
+  git commit -m 'migrate data base'
+  git push -u origin master
+
+4 - Create products either in the rails console or using the db/seeds.rb file!
+  rails db:seed
+
+4.a - Use git to add, commit, and push your code.
+
+5 - Create a route that displays JSON for all the available products.
+5.a - Use git to add, commit, and push your code.
+
+6 - Make some routes to display JSON for individual products. What is inconvenient about this process?
+
+Bonus: Make a Ruby frontend script using the HTTP gem to display the results in the terminal instead of a web browser!
+6.a - Use git to add, commit, and push your code.
+
+Bonus: In your Ruby frontend script, use the tty-table gem (https://github.com/piotrmurach/tty-table) to print out the results with tables in the terminal!
+GitHub
+piotrmurach/tty-table
+A flexible and intuitive table generator. Contribute to piotrmurach/tty-table development by creating an account on GitHub.
