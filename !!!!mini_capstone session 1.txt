@@ -1,0 +1,672 @@
+rails new mini_capstone
+Using --database=postgresql --skip-coffee --skip-turbolinks --skip-test --skip-spring from /Users/h/.railsrc
+      create  
+      create  README.md
+      create  Rakefile
+      create  .ruby-version
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in /Users/h/Actualize/mini_capstone/.git/
+      create  package.json
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/javascripts/application.js
+      create  app/assets/javascripts/cable.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/assets/javascripts/channels
+      create  app/assets/javascripts/channels/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/update
+      create  bin/yarn
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/storage.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/content_security_policy.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults_5_2.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/master.key
+      append  .gitignore
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor
+      create  vendor/.keep
+      create  storage
+      create  storage/.keep
+      create  tmp/storage
+      create  tmp/storage/.keep
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_5_2.rb
+         run  bundle install
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Fetching gem metadata from https://rubygems.org/.........
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies...
+Using rake 12.3.1
+Using concurrent-ruby 1.0.5
+Using i18n 1.1.0
+Using minitest 5.11.3
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using activesupport 5.2.1
+Using builder 3.2.3
+Using erubi 1.7.1
+Using mini_portile2 2.3.0
+Using nokogiri 1.8.5
+Using rails-dom-testing 2.0.3
+Using crass 1.0.4
+Using loofah 2.2.2
+Using rails-html-sanitizer 1.0.4
+Using actionview 5.2.1
+Using rack 2.0.5
+Using rack-test 1.1.0
+Using actionpack 5.2.1
+Using nio4r 2.3.1
+Using websocket-extensions 0.1.3
+Using websocket-driver 0.7.0
+Using actioncable 5.2.1
+Using globalid 0.4.1
+Using activejob 5.2.1
+Using mini_mime 1.0.1
+Using mail 2.7.0
+Using actionmailer 5.2.1
+Using activemodel 5.2.1
+Using arel 9.0.0
+Using activerecord 5.2.1
+Using mimemagic 0.3.2
+Using marcel 0.3.3
+Using activestorage 5.2.1
+Using bindex 0.5.0
+Using msgpack 1.2.4
+Using bootsnap 1.3.2
+Using bundler 1.16.6
+Using byebug 10.0.2
+Using execjs 2.7.0
+Using ffi 1.9.25
+Using multi_json 1.13.1
+Using jbuilder 2.7.0
+Using rb-fsevent 0.10.3
+Using rb-inotify 0.9.10
+Using ruby_dep 1.5.0
+Using listen 3.1.5
+Using method_source 0.9.0
+Using pg 1.1.3
+Using puma 3.12.0
+Using thor 0.20.0
+Using railties 5.2.1
+Using sprockets 3.7.2
+Using sprockets-rails 3.2.1
+Using rails 5.2.1
+Using sass-listen 4.0.0
+Using sass 3.6.0
+Using tilt 2.0.8
+Using sass-rails 5.0.7
+Using uglifier 4.1.19
+Using web-console 3.7.0
+Bundle complete! 11 Gemfile dependencies, 61 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+******** +     Actualize
+cd mini_capstone/
+******** +     mini_capstone
+git init
+Reinitialized existing Git repository in /Users/h/Actualize/mini_capstone/.git/
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'saving ruby'
+[master (root-commit) 0e8eba4] saving ruby
+ 68 files changed, 1221 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .ruby-version
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.md
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/config/manifest.js
+ create mode 100644 app/assets/images/.keep
+ create mode 100644 app/assets/javascripts/application.js
+ create mode 100644 app/assets/javascripts/cable.js
+ create mode 100644 app/assets/javascripts/channels/.keep
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/channels/application_cable/channel.rb
+ create mode 100644 app/channels/application_cable/connection.rb
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/jobs/application_job.rb
+ create mode 100644 app/mailers/application_mailer.rb
+ create mode 100644 app/models/application_record.rb
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 app/views/layouts/mailer.html.erb
+ create mode 100644 app/views/layouts/mailer.text.erb
+ create mode 100755 bin/bundle
+ create mode 100755 bin/rails
+ create mode 100755 bin/rake
+ create mode 100755 bin/setup
+ create mode 100755 bin/update
+ create mode 100755 bin/yarn
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/cable.yml
+ create mode 100644 config/credentials.yml.enc
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/application_controller_renderer.rb
+ create mode 100644 config/initializers/assets.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/content_security_policy.rb
+ create mode 100644 config/initializers/cookies_serializer.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/puma.rb
+ create mode 100644 config/routes.rb
+ create mode 100644 config/storage.yml
+ create mode 100644 db/seeds.rb
+ create mode 100644 lib/assets/.keep
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 log/.keep
+ create mode 100644 package.json
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/apple-touch-icon-precomposed.png
+ create mode 100644 public/apple-touch-icon.png
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/robots.txt
+ create mode 100644 storage/.keep
+ create mode 100644 tmp/.keep
+ create mode 100644 vendor/.keep
+******** +     mini_capstone
+rails db:create
+Created database 'mini_capstone_development'
+Created database 'mini_capstone_test'
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'made data base'
+On branch master
+nothing to commit, working tree clean
+******** 1   mini_capstone
+rails generate controller api/products
+      create  app/controllers/api/products_controller.rb
+      invoke  erb
+      create    app/views/api/products
+      invoke  helper
+      create    app/helpers/api/products_helper.rb
+      invoke  assets
+      invoke    js
+      create      app/assets/javascripts/api/products.js
+      invoke    scss
+      create      app/assets/stylesheets/api/products.scss
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'make product controller'
+[master dc42f59] make product controller
+ 5 files changed, 51 insertions(+)
+ create mode 100644 !!!!SNL_Products.rtfd/TXT.rtf
+ create mode 100644 app/assets/javascripts/api/products.js
+ create mode 100644 app/assets/stylesheets/api/products.scss
+ create mode 100644 app/controllers/api/products_controller.rb
+ create mode 100644 app/helpers/api/products_helper.rb
+******** +     mini_capstone
+git push origin dereksmith83
+error: src refspec dereksmith83 does not match any.
+error: failed to push some refs to 'origin'
+******** 1   mini_capstone
+git remote add origin https://github.com/dereksmith83/mini.git
+******** +     mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83 
+Password for 'https://dereksmith83@github.com': 
+Counting objects: 99, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (79/79), done.
+Writing objects: 100% (99/99), 24.07 KiB | 0 bytes/s, done.
+Total 99 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/dereksmith83/mini/pull/new/master
+remote: 
+To https://github.com/dereksmith83/mini.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+******** +     mini_capstone
+rails generate model product name:string price:integer image_url:string description:string
+      invoke  active_record
+      create    db/migrate/20181012002149_create_products.rb
+      create    app/models/product.rb
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'generate model product'
+[master 783c684] generate model product
+ 2 files changed, 14 insertions(+)
+ create mode 100644 app/models/product.rb
+ create mode 100644 db/migrate/20181012002149_create_products.rb
+******** +     mini_capstone
+rails db:migrate
+== 20181012002149 CreateProducts: migrating ===================================
+-- create_table(:products)
+   -> 0.0214s
+== 20181012002149 CreateProducts: migrated (0.0215s) ==========================
+
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'migrated'
+[master 5c7ef0d] migrated
+ 1 file changed, 27 insertions(+)
+ create mode 100644 db/schema.rb
+******** +     mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83 
+Password for 'https://dereksmith83@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/dereksmith83/mini.git/'
+******** 128   mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83
+Password for 'https://dereksmith83@github.com': 
+Counting objects: 12, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 1.73 KiB | 0 bytes/s, done.
+Total 12 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/dereksmith83/mini.git
+   dc42f59..5c7ef0d  master -> master
+Branch master set up to track remote branch master from origin.
+******** +     mini_capstone
+subl .
+******** +     mini_capstone
+rails db:seed
+rails aborted!
+ArgumentError: wrong number of arguments (given 4, expected 0..1)
+/Users/h/Actualize/mini_capstone/db/seeds.rb:9:in `<main>'
+bin/rails:4:in `<main>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+******** 1   mini_capstone
+rails db:seed
+rails aborted!
+ArgumentError: wrong number of arguments (given 4, expected 0..1)
+/Users/h/Actualize/mini_capstone/db/seeds.rb:9:in `<main>'
+bin/rails:4:in `<main>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+******** 1   mini_capstone
+rails db:seed
+rails aborted!
+ArgumentError: When assigning attributes, you must pass a hash as an argument.
+/Users/h/Actualize/mini_capstone/db/seeds.rb:10:in `<main>'
+bin/rails:4:in `<main>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+******** 1   mini_capstone
+rails db:seed
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'seed data base'
+[master 72de9d5] seed data base
+ 2 files changed, 44 insertions(+)
+ create mode 100644 !!!!Exercise: Begin the mini-capstone
+******** +     mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83
+Password for 'https://dereksmith83@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.76 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dereksmith83/mini.git
+   5c7ef0d..72de9d5  master -> master
+Branch master set up to track remote branch master from origin.
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'all product method'
+[master 02a9993] all product method
+ 2 files changed, 7 insertions(+), 2 deletions(-)
+******** +     mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83
+Password for 'https://dereksmith83@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 693 bytes | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/dereksmith83/mini.git
+   72de9d5..02a9993  master -> master
+Branch master set up to track remote branch master from origin.
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'all_products routes and jbuilder'
+[master 8d6588e] all_products routes and jbuilder
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 app/views/api/products/all_products.json.jbuilder
+******** +     mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83	
+Password for 'https://dereksmith83@github.com': 
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 722 bytes | 0 bytes/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/dereksmith83/mini.git
+   02a9993..8d6588e  master -> master
+Branch master set up to track remote branch master from origin.
+******** +     mini_capstone
+rails console
+Loading development environment (Rails 5.2.1)
+irb(main):001:0> p db
+Traceback (most recent call last):
+        1: from (irb):1
+NameError (undefined local variable or method `db' for main:Object)
+irb(main):002:0> p Products.all
+Traceback (most recent call last):
+        1: from (irb):2
+NameError (uninitialized constant Products)
+irb(main):003:0> puts Product.all
+  Product Load (0.9ms)  SELECT "products".* FROM "products"
+=> nil
+irb(main):004:0> rails db:migrate
+Traceback (most recent call last):
+        1: from (irb):4
+NameError (undefined local variable or method `migrate' for main:Object)
+irb(main):005:0> exit
+******** +     mini_capstone
+rails db:migrate
+******** +     mini_capstone
+rails console
+Loading development environment (Rails 5.2.1)
+irb(main):001:0> p Product.all
+  Product Load (0.3ms)  SELECT  "products".* FROM "products" LIMIT $1  [["LIMIT", 11]]
+#<ActiveRecord::Relation []>
+  Product Load (0.2ms)  SELECT  "products".* FROM "products" LIMIT $1  [["LIMIT", 11]]
+=> #<ActiveRecord::Relation []>
+irb(main):002:0> p products
+Traceback (most recent call last):
+        1: from (irb):2
+NameError (undefined local variable or method `products' for main:Object)
+irb(main):003:0> puts product.all
+Traceback (most recent call last):
+        1: from (irb):3
+NameError (undefined local variable or method `product' for main:Object)
+Did you mean?  proc
+irb(main):004:0> exit
+******** +     mini_capstone
+rails server
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.0 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/snl/all_products" for 127.0.0.1 at 2018-10-11 21:04:59 -0500
+   (0.6ms)  SELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC
+  ↳ /Users/h/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (uninitialized constant Snl):
+  
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `block in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:74:in `rescue in load_missing_constant'
+bootsnap (1.3.2) lib/bootsnap/load_path_cache/core_ext/active_support.rb:56:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/api/all_products" for 127.0.0.1 at 2018-10-11 21:07:43 -0500
+Processing by Api::ProductsController#all_products as HTML
+  Rendering api/products/all_products.json.jbuilder
+  Product Load (0.8ms)  SELECT "products".* FROM "products"
+  ↳ app/views/api/products/all_products.json.jbuilder:2
+  Rendered api/products/all_products.json.jbuilder (13.2ms)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 4.7ms)
+
+
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2018-10-11 21:08:03 -0500 ===
+- Goodbye!
+Exiting
+******** +     mini_capstone
+rails seed
+rails aborted!
+Don't know how to build task 'seed' (see --tasks)
+bin/rails:4:in `<main>'
+(See full trace by running task with --trace)
+******** 1   mini_capstone
+rails db:seed
+******** +     mini_capstone
+rails db:migrate
+******** +     mini_capstone
+rails console
+Loading development environment (Rails 5.2.1)
+irb(main):001:0> p Product.all
+  Product Load (0.3ms)  SELECT  "products".* FROM "products" LIMIT $1  [["LIMIT", 11]]
+#<ActiveRecord::Relation []>
+  Product Load (0.2ms)  SELECT  "products".* FROM "products" LIMIT $1  [["LIMIT", 11]]
+=> #<ActiveRecord::Relation []>
+irb(main):002:0> p all_products
+Traceback (most recent call last):
+        1: from (irb):2
+NameError (undefined local variable or method `all_products' for main:Object)
+irb(main):003:0> p product
+Traceback (most recent call last):
+        1: from (irb):3
+NameError (undefined local variable or method `product' for main:Object)
+Did you mean?  proc
+irb(main):004:0> p products
+Traceback (most recent call last):
+        1: from (irb):4
+NameError (undefined local variable or method `products' for main:Object)
+irb(main):005:0> p product.all
+Traceback (most recent call last):
+        1: from (irb):5
+NameError (undefined local variable or method `product' for main:Object)
+Did you mean?  proc
+irb(main):006:0> p Product.first
+  Product Load (0.3ms)  SELECT  "products".* FROM "products" ORDER BY "products"."id" ASC LIMIT $1  [["LIMIT", 1]]
+nil
+=> nil
+irb(main):007:0> exit
+******** +     mini_capstone
+rails db:seed
+******** +     mini_capstone
+git add --all
+******** +     mini_capstone
+git commit -m 'seeding db again... the right way'
+[master ea75e9f] seeding db again... the right way
+ 2 files changed, 11 insertions(+), 2 deletions(-)
+******** +     mini_capstone
+git push -u origin master
+Username for 'https://github.com': dereksmith83
+Password for 'https://dereksmith83@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 538 bytes | 0 bytes/s, done.
+Total 6 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/dereksmith83/mini.git
+   8d6588e..ea75e9f  master -> master
+Branch master set up to track remote branch master from origin.
+******** +     mini_capstone
+rails console
+Loading development environment (Rails 5.2.1)
+irb(main):001:0> p product.all
+Traceback (most recent call last):
+        1: from (irb):1
+NameError (undefined local variable or method `product' for main:Object)
+Did you mean?  proc
+irb(main):002:0> p Product.all
+  Product Load (0.5ms)  SELECT  "products".* FROM "products" LIMIT $1  [["LIMIT", 11]]
+#<ActiveRecord::Relation [#<Product id: 1, name: "Colon Blow", price: 3, image_url: "x", description: "30,000 bowls of Total to equal the fiber content i...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 2, name: "Super Colon Blow", price: 3, image_url: "x", description: "2.5 million bowls of Total to equal the fiber cont...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 3, name: "Count Chocula Silver", price: 2, image_url: "x", description: "Count Chocula with good heart health along with ko...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 4, name: "Cracklin' Oat Flakes (Now with Ecstasy)", price: 153, image_url: "x", description: "Cracklin' Oat Flakes, Now with Ecstasy", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 5, name: "Quarry", price: 3, image_url: "x", description: "The only breakfast cereal that's pure 100% rocks a...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">]>
+  Product Load (0.3ms)  SELECT  "products".* FROM "products" LIMIT $1  [["LIMIT", 11]]
+=> #<ActiveRecord::Relation [#<Product id: 1, name: "Colon Blow", price: 3, image_url: "x", description: "30,000 bowls of Total to equal the fiber content i...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 2, name: "Super Colon Blow", price: 3, image_url: "x", description: "2.5 million bowls of Total to equal the fiber cont...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 3, name: "Count Chocula Silver", price: 2, image_url: "x", description: "Count Chocula with good heart health along with ko...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 4, name: "Cracklin' Oat Flakes (Now with Ecstasy)", price: 153, image_url: "x", description: "Cracklin' Oat Flakes, Now with Ecstasy", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">, #<Product id: 5, name: "Quarry", price: 3, image_url: "x", description: "The only breakfast cereal that's pure 100% rocks a...", created_at: "2018-10-12 02:13:40", updated_at: "2018-10-12 02:13:40">]>
+irb(main):003:0> exit
+******** +     mini_capstone
+rails s
+=> Booting Puma
+=> Rails 5.2.1 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.12.0 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/api/all_products" for 127.0.0.1 at 2018-10-11 21:25:38 -0500
+   (0.8ms)  SELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC
+  ↳ /Users/h/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Api::ProductsController#all_products as HTML
+  Rendering api/products/all_products.json.jbuilder
+  Product Load (0.5ms)  SELECT "products".* FROM "products"
+  ↳ app/views/api/products/all_products.json.jbuilder:2
+  Rendered api/products/all_products.json.jbuilder (14.1ms)
+Completed 200 OK in 22ms (Views: 16.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/api/all_products" for 127.0.0.1 at 2018-10-11 21:26:49 -0500
+Processing by Api::ProductsController#all_products as HTML
+  Rendering api/products/all_products.json.jbuilder
+  Product Load (0.7ms)  SELECT "products".* FROM "products"
+  ↳ app/views/api/products/all_products.json.jbuilder:2
+  Rendered api/products/all_products.json.jbuilder (2.9ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.7ms)
+
+
+^C- Gracefully stopping, waiting for requests to finish
+=== puma shutdown: 2018-10-14 09:13:17 -0500 ===
+- Goodbye!
+Exiting
+******** +     mini_capstone
+
