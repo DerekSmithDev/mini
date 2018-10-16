@@ -9,12 +9,19 @@ class Api::ProductsController < ApplicationController
     render "show.json.jbuilder"
   end
   def create
-    @product = Product.new (
+    @product = Product.new(
       name: params["name"],
-      price: params["price"]
-      image_url: params["image_url"]
+      price: params["price"],
+      image_url: params["image_url"],
       description: params["description"]
+      )
     @product.save
     render "show.json.jbuilder"
+  end
+  def destroy
+    @input_id = params["id"]
+    product = Product.find_by(id: @input_id)
+    product.destroy
+    render "destroy.json.jbuilder"
   end
 end
