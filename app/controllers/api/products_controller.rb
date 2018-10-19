@@ -1,6 +1,8 @@
 class Api::ProductsController < ApplicationController
   def index
     @products = Product.all
+
+    @products = @products.order(:id => :desc)
     render "index.json.jbuilder"
   end
   def show
