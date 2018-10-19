@@ -5,7 +5,12 @@ class Api::ProductsController < ApplicationController
     if search
       @products = @products.where("name ILIKE ?", "%#{search}%")
     end
-    @products = @products.order(:id => :asc)
+    price_sort = params[:price_sort]
+    if price_sort
+      @products = @products.order(:price)
+    else
+      @products = @products.order(:id => :asc)
+    end
     render "index.json.jbuilder"
   end
   def show
