@@ -1,0 +1,923 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 470,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/api/products_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1290,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/api/products/_product.json.jbuilder",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/api/products/destroy.json.jbuilder",
+			"settings":
+			{
+				"buffer_size": 30,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/api/products/index.json.jbuilder",
+			"settings":
+			{
+				"buffer_size": 101,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/api/products/show.json.jbuilder",
+			"settings":
+			{
+				"buffer_size": 56,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Build & Run"
+				]
+			],
+			[
+				"Packages/Rust/Rust.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"tsv",
+				"Set Syntax: TSV"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"reg",
+				"Set Syntax: Regular Expressions"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"4",
+				"Tab Size:  4"
+			],
+			[
+				"10",
+				"Tab Size: 10"
+			],
+			[
+				"12",
+				"Tab Size: 12"
+			],
+			[
+				"16",
+				"Tab Size: 16"
+			],
+			[
+				"8",
+				"Tab Size:  8"
+			],
+			[
+				"sh",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"18",
+				"Tab Size: 18"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"PRETT",
+				"HTMLPrettify"
+			],
+			[
+				"2",
+				"Tab Size:  2"
+			],
+			[
+				"non",
+				"Find non ascii"
+			],
+			[
+				"sml",
+				"Set Syntax: XML"
+			],
+			[
+				"fount",
+				"Set Syntax: Fountain"
+			],
+			[
+				"64",
+				"Tab Size: 64"
+			],
+			[
+				"56",
+				"Tab Size: 56"
+			],
+			[
+				"20",
+				"Tab Size: 20"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"list",
+				"Set Syntax: Adobe Font List"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"SQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"tex",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"28",
+				"Tab Size: 28"
+			],
+			[
+				"24",
+				"Tab Size: 24"
+			],
+			[
+				"shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"NON",
+				"Find non ascii"
+			],
+			[
+				"SHELL",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ts",
+				"Set Syntax: TSV"
+			],
+			[
+				"36",
+				"Tab Size: 36"
+			],
+			[
+				"TSV",
+				"Set Syntax: TSV"
+			],
+			[
+				"6",
+				"Tab Size:  6"
+			],
+			[
+				"apple",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"48",
+				"Tab Size: 48"
+			],
+			[
+				"app",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"apa",
+				"Set Syntax: Apache"
+			],
+			[
+				"apac",
+				"Set Syntax: Apache"
+			],
+			[
+				"jsp",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"3",
+				"Tab Size:  3"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"128",
+				"Tab Size: 128"
+			],
+			[
+				"25",
+				"Tab Size: 256"
+			],
+			[
+				"5",
+				"Tab Size: 56"
+			],
+			[
+				"40",
+				"Tab Size: 40"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"JSP",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"p",
+				"HTMLPrettify"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"x",
+				"Set Syntax: XML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"SQ",
+				"Set Syntax: SQL"
+			],
+			[
+				"S",
+				"Set Syntax: SQL"
+			],
+			[
+				"no",
+				"Find non ascii"
+			],
+			[
+				"XML",
+				"Set Syntax: XML"
+			],
+			[
+				"REG",
+				"Set Syntax: Regular Expressions"
+			],
+			[
+				"pr",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"foun",
+				"Set Syntax: Fountain"
+			],
+			[
+				"fou",
+				"Set Syntax: Fountain"
+			],
+			[
+				"she",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"txt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"htmlprett",
+				"HTMLPrettify"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"re",
+				"Set Syntax: Regular Expressions"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/h/Actualize/mini_capstone",
+		"/Users/h/Actualize/mini_capstone/app",
+		"/Users/h/Actualize/mini_capstone/app/controllers",
+		"/Users/h/Actualize/mini_capstone/app/controllers/api",
+		"/Users/h/Actualize/mini_capstone/app/views",
+		"/Users/h/Actualize/mini_capstone/app/views/api",
+		"/Users/h/Actualize/mini_capstone/app/views/api/products",
+		"/Users/h/Actualize/mini_capstone/public"
+	],
+	"file_history":
+	[
+		"/Users/h/Actualize/contacts_app/app/views/api/contacts/destroy.json.jbuilder",
+		"/Users/h/Actualize/contacts_app/app/views/api/contacts/_contact.json.jbuilder",
+		"/Users/h/Actualize/contacts_app/app/views/api/contacts/show.json.jbuilder",
+		"/Users/h/Actualize/contacts_app/app/views/api/contacts/index.json.jbuilder",
+		"/Users/h/Actualize/contacts_app/app/controllers/api/contacts_controller.rb",
+		"/Users/h/Actualize/contacts_app/app/models/contact.rb",
+		"/Users/h/Actualize/contacts_app/config/routes.rb",
+		"/Users/h/Actualize/contacts_app/db/migrate/20181018020837_add_bio_to_contacts.rb",
+		"/Users/h/Actualize/contacts_app/db/migrate/20181018014517_add_middle_name_to_contacts.rb",
+		"/Users/h/Actualize/contacts_app/app/controllers/application_controller.rb",
+		"/www/db/tables/dt_user/col.txt",
+		"/Users/h/Actualize/contacts_app/10-10-2018 contacts_app.txt",
+		"/Users/h/Actualize/mini_capstone/app/controllers/application_controller.rb",
+		"/Users/h/Actualize/params-security-exercise/app/controllers/application_controller.rb",
+		"/Users/h/Actualize/mini_capstone/db/seeds.rb",
+		"/Users/h/Library/Application Support/Sublime Text 3/Packages/User/Sublime Preferences 2018-10-11",
+		"/Users/h/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/h/Desktop/paths.txt",
+		"/www/misc/keys/master/rtfd/index.php",
+		"/www/ref/php/upgrading/Terminal Saved Output.txt",
+		"/www/ref/php/upgrading/snippets.sh",
+		"/www/tmp/2015/2015-10-27/snippets.jsp",
+		"/www/tmp/2017/2017-02-27/tmp.php",
+		"/www/tmp/2017/2017-02-27/index.php",
+		"/www/tmp/2017/2017-02-27/tmp.txt",
+		"/www/tmp/2017/2017-02-27/2017-02-22.sql",
+		"/www/tmp/snippets.jsp",
+		"/Users/h/Settings/misc/price/att/09-09-2014_01-08-2016/total-charges-by-number.html",
+		"/www/syst/defaults/exports/strings-domain/syst.list",
+		"/www/root/import-individual.list",
+		"/www/unique.php",
+		"/Users/h/Settings/misc/price/fedloan/index.php",
+		"/www/fonts/syst/manager/trait/Util.php",
+		"/www/bldg/misc/loose/2014-11-13/snippets.sql",
+		"/Users/h/Settings/icns/redtab/dynamic/_ver/device/device.list",
+		"/www/agents/db/prev/info.php",
+		"/www/univ/domains/index.php",
+		"/www/univ/domains/keys.css",
+		"/Users/h/Settings/misc/price/att/09-09-2014_01-08-2016/total-charges-by-number_files/myatt-billing.js",
+		"/Users/h/Settings/misc/price/sh/tmp.html",
+		"/Users/h/Settings/misc/price/stmt/joint/index.php",
+		"/www/misc/keys/master/spreadsheets/Master-DT-Sites3/html/PW.html",
+		"/www/subsites/norvax/ip.list",
+		"/www/univ/domains/godaddy/autolist/access.tsv",
+		"/www/subsites/academy/misc/access.list",
+		"/Users/h/Settings/misc/price/pay/index.php",
+		"/Users/h/Settings/misc/price/tax/index.php",
+		"/www/util/ios/health/index.php",
+		"/www/subsites/bestchicagocondos/phpinfo/info-02.html",
+		"/Users/h/Actualize/object-oriented-ruby/mDiscounts.rb",
+		"/Users/h/Actualize/object-oriented-ruby/cProduce.rb",
+		"/Users/h/Downloads/treddit.rb",
+		"/Users/h/Actualize/object-oriented-ruby/cDry_Goods.rb",
+		"/Users/h/Actualize/object-oriented-ruby/main_store.rb",
+		"/Users/h/Actualize/object-oriented-ruby/cStore_Items.rb",
+		"/Users/h/Actualize/object-oriented-ruby/Exercise:18-10-07 9.31am",
+		"/Users/h/.rubocop.yml",
+		"/Users/h/Actualize/object-oriented-ruby/inheritance_example.rb",
+		"/Users/h/Actualize/object-oriented-ruby/class_Store_Items.rb",
+		"/Users/h/Actualize/object-oriented-ruby/store_item.rb",
+		"/Users/h/Actualize/Work Files/18-09-30/Sunday Exercises - 2018_09_30.rb",
+		"/Users/h/Actualize/Work Files/Weather-REader.rb",
+		"/Users/h/Actualize/Work Files/weather.dat",
+		"/Users/h/Actualize/example-repo/test.tb",
+		"/Users/h/.ssh/github_rsa",
+		"/Users/h/Actualize/git-story/story.txt",
+		"/Users/h/Actualize/Work Files/18-09-30/5.rb",
+		"/Users/h/Actualize/Work Files/18-09-30/6.rb",
+		"/Users/h/Actualize/Work Files/18-09-30/4.rb",
+		"/Users/h/Actualize/Work Files/18-09-30/3.rb",
+		"/Users/h/Actualize/Work Files/18-09-30/1.rb",
+		"/Users/h/Actualize/Work Files/18-09-30/2.rb",
+		"/Users/h/Actualize/Work Files/18/Sunday Exercises - 2018_09_30.rb",
+		"/Users/h/Actualize/git-practice/.recipe.txt",
+		"/Users/h/Actualize/git-story/story",
+		"/Users/h/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/h/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/www/ref/entities/uni/character-palette/static/arrowNavUI.js",
+		"/www/ref/entities/uni/character-palette/static/characterPalettePref.js",
+		"/www/ref/entities/uni/character-palette/class/CharUtil.php",
+		"/www/ref/entities/uni/character-palette/static/characterPaletteSearch.js",
+		"/www/ref/entities/uni/character-palette/static/characterPaletteUI.js",
+		"/www/ref/entities/uni/character-palette/index.html",
+		"/www/ref/entities/uni/character-palette/class/CharacterPalette.php",
+		"/www/ref/entities/uni/character-palette/api.php",
+		"/Users/h/Settings/misc/price/fedloan/class/PaymentForm.php",
+		"/www/univ/js/FuncDebug.js",
+		"/Users/h/Settings/misc/price/pay/formats/txt/revised/2017-12-31_2018-01-13_SH.txt",
+		"/Users/h/Settings/misc/price/pay/formats/txt/2017-10-22_2017-11-04_SH.txt",
+		"/Users/h/Settings/misc/price/pay/formats/txt/2017-07-02_2017-07-15_SH.txt",
+		"/www/ref/entities/uni/character-palette/static/style.css",
+		"/Users/h/Actualize/Career_Support/Career_Motivations.txt",
+		"/Users/h/Actualize/test.txt",
+		"/Users/h/Settings/misc/price/pay/formats/txt/revised/2017-01-01_2017-01-14_SH.txt",
+		"/Users/h/Settings/misc/price/pay/formats/txt/2013-02-25_2013-03-09_DT.txt",
+		"/Users/h/Settings/misc/price/pay/formats/txt/revised/2016-12-18_2016-12-31_SH.txt",
+		"/Users/h/Settings/misc/price/pay/class/PayStatement.php",
+		"/www/ref/entities/uni/character-palette/static/characterPaletteUtil.js",
+		"/Users/h/Settings/misc/price/fedloan/inbox/inc/lookup.php",
+		"/Users/h/Settings/misc/price/fedloan/inbox/index.php",
+		"/Users/h/Settings/misc/price/pay/formats/txt/2017-12-31_2018-01-13_SH.txt",
+		"/Users/h/Settings/misc/price/fedloan/details/2017-12-13.txt",
+		"/Users/h/Settings/misc/price/pay/formats/txt/2017-03-12_2017-03-25_SH.txt",
+		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2017-01-15/apple_health_export/export.xml",
+		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2017-01-15/apple_health_export/export_cda.xml",
+		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2017-06-04/apple_health_export/export_cda.xml",
+		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2016-12-04_ds/apple_health_export/export_cda.xml",
+		"/www/ref/wifi/local/addr2.re",
+		"/Users/h/.bash_profile",
+		"/Users/h/Desktop/take-my-true-love-by-the-hand.mood",
+		"/Users/h/bin/.bash_profile",
+		"/Users/h/Settings/misc/price/fedloan/static/view-chart.css",
+		"/Users/h/Settings/misc/price/fedloan/class/Nav.php",
+		"/Users/h/Settings/misc/price/pay/class/Chart.php",
+		"/www/ref/php/upgrading/upgrade-php.sh",
+		"/www/ref/php/upgrading/upgrade-osx.sh",
+		"/Users/h/Settings/icns/redtab/dynamic/test/current/open.php",
+		"/Users/h/Settings/icns/redtab/index.php",
+		"/Users/h/Desktop/tmp.html",
+		"/www/ref/entities/uni/character-palette/_ver/26/static/characterPaletteSearch.js",
+		"/www/ref/entities/uni/character-palette/_ver/27/index.php",
+		"/www/ref/entities/uni/character-palette/bin/lines-written.sh",
+		"/www/ref/entities/uni/ucdxml/ucd.seq.php",
+		"/www/ref/entities/emoji/_ver/01/index.php",
+		"/Users/h/Desktop/tmp.php",
+		"/Users/h/Downloads/ucd.all.flat.xml",
+		"/www/ref/html/meter/palette/Meter.php",
+		"/Users/h/Desktop/emoji-twitter-popularity_2017-02-28.tsv"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/h/Actualize/mini_capstone"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"SL.50.region_keys":
+							[
+							],
+							"syntax": "Packages/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 29.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/controllers/api/products_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"SL.55.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.99.region_keys":
+							[
+							],
+							"syntax": "Packages/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/views/api/products/_product.json.jbuilder",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/api/products/destroy.json.jbuilder",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/api/products/index.json.jbuilder",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/api/products/show.json.jbuilder",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				0,
+				2,
+				1,
+				3
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
