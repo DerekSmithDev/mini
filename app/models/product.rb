@@ -27,5 +27,6 @@ class Product < ApplicationRecord
   def total
     price + tax
   end
+  def image_url_list
 end
 
