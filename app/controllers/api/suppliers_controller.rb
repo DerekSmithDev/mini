@@ -16,7 +16,7 @@ class Api::SuppliersController < ApplicationController
     @supplier = Supplier.new(
       name: params["name"],
       price: params["email"],
-      image_url: params["phone_number"]
+      phone_number: params["phone_number"]
       )
     if @supplier.save
       render "supplier_show.json.jbuilder"
