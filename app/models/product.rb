@@ -9,6 +9,10 @@ class Product < ApplicationRecord
 #  def images
 #    Image.where(product_id: id)
 #  end
+  belongs_to :supplier
+#  def supplier
+#    Supplier.find_by(id: supplier_id)
+#  end
 
   def is_discounted?
     if price < 10
@@ -22,9 +26,6 @@ class Product < ApplicationRecord
   end
   def total
     price + tax
-  end
-  def supplier
-    Supplier.find_by(id: supplier_id)
   end
 end
 
