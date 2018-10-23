@@ -5,6 +5,11 @@ class Product < ApplicationRecord
   validates :name, uniqueness: true
   validates :description, length: { in: 10..500 }
 
+  has_many :images
+#  def images
+#    Image.where(product_id: id)
+#  end
+
   def is_discounted?
     if price < 10
       return true
