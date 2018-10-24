@@ -6,4 +6,5 @@ json.total product.total.round(2)
 json.description product.description
 json.is_discounted? product.is_discounted?
 json.supplier product.supplier
-json.images product.images
+#json.images product.images
+#json.current_user current_user
