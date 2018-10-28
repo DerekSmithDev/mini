@@ -28,6 +28,15 @@ supplier.save
 supplier = Supplier.new(name:"Killall Company", email:"go@Killall.com", phone_number:"(098) 765-4321")
 supplier.save
 
+user = User.new(name: "peter", email: "peter@email.com", password: "password", password_confirmation: "password")
+user.save
+user = User.new(name: "adam", email: "adam@email.com", password: "password", password_confirmation: "password")
+user.save
+user = User.new(name: "test", email: "test@email.com", password: "password", password_confirmation: "password")
+user.save
+user = User.new(name: "russell", email: "russell@email.com", password: "password", password_confirmation: "password")
+user.save
+
 category = Category.new(name: "fiber")
 category.save
 category = Category.new(name: "candy")
