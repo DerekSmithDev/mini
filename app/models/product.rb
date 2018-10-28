@@ -6,10 +6,11 @@ class Product < ApplicationRecord
   validates :description, length: { in: 10..500 }
 
   has_many :images
-  has_many :orders
 #  def images
 #    Image.where(product_id: id)
 #  end
+  has_many :orders
+  has_many :category_products
   belongs_to :supplier
 #  def supplier
 #    Supplier.find_by(id: supplier_id)
