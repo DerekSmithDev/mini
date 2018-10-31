@@ -19,4 +19,16 @@ class Api::CartedProductsController < ApplicationController
     @carted_product.save
     render "show.json.jbuilder"
   end
+
+  def destroy
+    input_id = params["id"]
+    carted_product = current_user.carted_products.find_by(id: input_id)
+    carted_product.status = "removed"
+
+    if carted_product.save
+      render json: {message: 'Cart_Product successfully destroyed'}, status: :created
+    else
+      render json: {errors: carted_product.errors.full_messages}, status: :bad_request
+    end
+  end
 end
