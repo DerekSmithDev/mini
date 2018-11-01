@@ -23,4 +23,5 @@ Rails.application.routes.draw do
     post"/sessions" => "sessions#create"
   end
   get"/products" => "products#index"
+  get"/products/:id" => "products#show"
 end
