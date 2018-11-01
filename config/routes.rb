@@ -24,4 +24,5 @@ Rails.application.routes.draw do
   end
   get"/products" => "products#index"
   get"/products/:id" => "products#show"
+  get"/products/new" => "products#new"
 end
