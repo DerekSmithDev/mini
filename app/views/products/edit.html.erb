@@ -1,0 +1,21 @@
+<h1>Edit Product</h1>
+<form action="/products/<%= @product.id %>" method="post">
+  <input type="hidden" name="_method" value="patch">
+  <div>
+    Name: <input type="text" name="name" value="<%= @product.name %>">
+  </div>
+  <div>
+    Price: <input type="text" name="price" value="<%= @product.price %>">
+  </div>
+  <div>
+    Description: <input type="text" name="description" value="<%= @product.description %>">
+  </div>
+  <div>
+    Supplier ID: <select name="supplier_id" value="<%= @product.supplier_id %>">
+  <option value="1">Paste Cereal</option> 
+  <option value="2" selected>General Swills</option>
+  <option value="3">Killall Company</option>
+</select></div>
+  </div>
+  <input type="submit" value="Update product">
+</form>

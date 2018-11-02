@@ -1,7 +1,8 @@
 <% @products.each do |product| %>
+  <h6><%= product.id %></h4>
   <h2><%= product.name %></h2>
   <h3><%= product.price %></h3>
   <h4><%= product.description %></h4>
-  <h4><%= product.supplier_id %></h4>
+  <h4><%= product.supplier.name %></h4>
   <a href="/products/<%= product.id %>">More info</a>
 <% end %>

@@ -23,7 +23,10 @@ Rails.application.routes.draw do
     post"/sessions" => "sessions#create"
   end
   get"/products" => "products#index"
-  get"/products/:id" => "products#show"
-  get"/product/new" => "products#new"
+  get"/products/new" => "products#new"
   post"/products" => "products#create"
+  get"/products/:id" => "products#show"
+  get "/products/:id/edit" => "products#edit"
+  patch"/products/:id" => "products#update"
+  delete"/products/:id" => "products#destroy"
 end
