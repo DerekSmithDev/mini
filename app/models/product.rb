@@ -2,8 +2,8 @@ class Product < ApplicationRecord
   validates :price, presence: true
   validates :price, numericality: { greater_than: 0.00 }
   validates :name, presence: true
-  validates :name, uniqueness: true
-  validates :description, length: { in: 10..500 }
+#  validates :name, uniqueness: true
+  validates :description, length: { in: 3..500 }
 
   has_many :images
 #  def images
