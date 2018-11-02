@@ -10,4 +10,15 @@ class ProductsController < ApplicationController
   def new
     render "new.html.erb"
   end
+  def create
+    @product = Product.new(
+      name: params[:form_title],
+      price: params[:price].to_i,
+      description: params[:description],
+      supplier_id: params[:supplier_id].to_i,
+      user_id: 1
+    )
+    @product.save
+    redirect_to "/products"
+  end
 end
