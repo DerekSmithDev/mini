@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
+#Bootstrap for rails
+gem 'bootstrap', '~> 4.1.3'
 
 gem 'jwt'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
