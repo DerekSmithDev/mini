@@ -7,6 +7,6 @@ json.description product.description
 json.categories product.categories.map{|category| category.name}
 json.categories product.categories
 #json.is_discounted? product.is_discounted?
-#json.supplier product.supplier
-#json.images product.images
+json.supplier product.supplier
+json.images product.images.map{|image| image.url}
 #json.current_user current_user.name

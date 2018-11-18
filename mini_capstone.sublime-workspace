@@ -8,179 +8,62 @@
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
+			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 926,
+				"buffer_size": 3923,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "app/models/image.rb",
 			"settings":
 			{
-				"buffer_size": 1577,
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/supplier.rb",
+			"settings":
+			{
+				"buffer_size": 169,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/application_controller.rb",
+			"file": "app/controllers/api/images_controller.rb",
 			"settings":
 			{
-				"buffer_size": 878,
+				"buffer_size": 56,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.js",
+			"settings":
+			{
+				"buffer_size": 742,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/api/carted_products_controller.rb",
+			"file": "app/views/api/products/_product.json.jbuilder",
 			"settings":
 			{
-				"buffer_size": 1080,
+				"buffer_size": 429,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/order.rb",
+			"file": "app/views/api/products/index.json.jbuilder",
 			"settings":
 			{
-				"buffer_size": 83,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/schema.rb",
-			"settings":
-			{
-				"buffer_size": 2728,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/seeds.rb",
-			"settings":
-			{
-				"buffer_size": 3220,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/api/products_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1701,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/api/users_controller.rb",
-			"settings":
-			{
-				"buffer_size": 440,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/api/orders_controller.rb",
-			"settings":
-			{
-				"buffer_size": 823,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 206,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/carted_product.rb",
-			"settings":
-			{
-				"buffer_size": 121,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/product.rb",
-			"settings":
-			{
-				"buffer_size": 808,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/carted_products/_carted_product.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 139,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/carted_products/show.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 77,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/carted_products/index.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 136,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/carted_products/destroy.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 30,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/orders/_order.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 161,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/orders/index.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 91,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/api/orders/show.json.jbuilder",
-			"settings":
-			{
-				"buffer_size": 50,
-				"encoding": "UTF-8",
+				"buffer_size": 101,
 				"line_ending": "Unix"
 			}
 		}
@@ -567,25 +450,50 @@
 	"expanded_folders":
 	[
 		"/Users/h/Actualize/mini_capstone",
+		"/Users/h/Actualize/mini_capstone/!!!!SNL_Products.rtfd",
 		"/Users/h/Actualize/mini_capstone/app",
-		"/Users/h/Actualize/mini_capstone/app/controllers",
-		"/Users/h/Actualize/mini_capstone/app/controllers/api",
-		"/Users/h/Actualize/mini_capstone/app/helpers",
-		"/Users/h/Actualize/mini_capstone/app/helpers/api",
+		"/Users/h/Actualize/mini_capstone/app/assets",
 		"/Users/h/Actualize/mini_capstone/app/jobs",
-		"/Users/h/Actualize/mini_capstone/app/models",
-		"/Users/h/Actualize/mini_capstone/app/models/concerns",
 		"/Users/h/Actualize/mini_capstone/app/views",
 		"/Users/h/Actualize/mini_capstone/app/views/api",
-		"/Users/h/Actualize/mini_capstone/app/views/api/carted_products",
 		"/Users/h/Actualize/mini_capstone/app/views/api/orders",
 		"/Users/h/Actualize/mini_capstone/app/views/api/products",
-		"/Users/h/Actualize/mini_capstone/app/views/api/sessions",
+		"/Users/h/Actualize/mini_capstone/app/views/api/suppliers",
+		"/Users/h/Actualize/mini_capstone/config",
 		"/Users/h/Actualize/mini_capstone/db",
-		"/Users/h/Actualize/mini_capstone/db/migrate"
+		"/Users/h/Actualize/mini_capstone/public",
+		"/Users/h/Actualize/mini_capstone/tmp"
 	],
 	"file_history":
 	[
+		"/Users/h/Actualize/mini_capstone/config/routes.rb",
+		"/Users/h/Actualize/mini_capstone/app/views/products/new.html.erb",
+		"/Users/h/Actualize/mini_capstone/app/views/products/edit.html.erb",
+		"/Users/h/Actualize/mini_capstone/app/views/products/index.html.erb",
+		"/Users/h/Actualize/mini_capstone/app/views/products/show.html.erb",
+		"/Users/h/Actualize/mini_capstone/app/controllers/products_controller.rb",
+		"/Users/h/Actualize/mini_capstone/app/models/user.rb",
+		"/Users/h/Actualize/mini_capstone/app/models/product.rb",
+		"/Users/h/Actualize/mini_capstone/db/seeds.rb",
+		"/Users/h/Actualize/mini_capstone/Gemfile",
+		"/Users/h/Actualize/mini_capstone/app/controllers/application_controller.rb",
+		"/Users/h/Actualize/mini_capstone/app/controllers/api/carted_products_controller.rb",
+		"/Users/h/Actualize/mini_capstone/app/models/order.rb",
+		"/Users/h/Actualize/mini_capstone/db/schema.rb",
+		"/Users/h/Actualize/mini_capstone/db/migrate/20181026000020_add_admin_to_users.rb",
+		"/Users/h/Actualize/mini_capstone/public/404.html",
+		"/Users/h/Actualize/mini_capstone/app/views/layouts/application.html.erb",
+		"/Users/h/Actualize/mini_capstone/app/controllers/api/products_controller.rb",
+		"/Users/h/Actualize/mini_capstone/app/controllers/api/users_controller.rb",
+		"/Users/h/Actualize/mini_capstone/app/models/carted_product.rb",
+		"/Users/h/Actualize/mini_capstone/app/controllers/api/orders_controller.rb",
+		"/Users/h/Actualize/mini_capstone/app/views/api/orders/show.json.jbuilder",
+		"/Users/h/Actualize/mini_capstone/app/views/api/orders/index.json.jbuilder",
+		"/Users/h/Actualize/mini_capstone/app/views/api/orders/_order.json.jbuilder",
+		"/Users/h/Actualize/mini_capstone/app/views/api/carted_products/_carted_product.json.jbuilder",
+		"/Users/h/Actualize/mini_capstone/app/views/api/carted_products/show.json.jbuilder",
+		"/Users/h/Actualize/mini_capstone/app/views/api/carted_products/index.json.jbuilder",
+		"/Users/h/Actualize/mini_capstone/app/views/api/carted_products/destroy.json.jbuilder",
 		"/Users/h/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/h/Actualize/mini_capstone/app/controllers/api/sessions_controller.rb",
 		"/Users/h/Actualize/mini_capstone/app/views/api/suppliers/show.json.jbuilder",
@@ -597,13 +505,9 @@
 		"/Users/h/Actualize/mini_capstone/app/models/image.rb",
 		"/Users/h/Actualize/mini_capstone/app/models/supplier.rb",
 		"/Users/h/Actualize/mini_capstone/app/controllers/api/suppliers_controller.rb",
-		"/Users/h/Actualize/mini_capstone/app/models/product.rb",
-		"/Users/h/Actualize/mini_capstone/app/models/order.rb",
-		"/Users/h/Actualize/mini_capstone/db/migrate/20181026000020_add_admin_to_users.rb",
 		"/Users/h/Actualize/mini_capstone/db/migrate/20181030012052_remove_product_id_and_quantity_columns_from_orders.rb",
 		"/Users/h/Actualize/mini_capstone/app/models/category_product.rb",
 		"/Users/h/Actualize/mini_capstone/app/helpers/application_helper.rb",
-		"/Users/h/Actualize/mini_capstone/db/schema.rb",
 		"/Users/h/Actualize/mini_capstone/db/migrate/20181023014832_remove_image_url_from_products.rb",
 		"/Users/h/Actualize/mini_capstone/app/views/api/products/_supplier.json.jbuilder",
 		"/Users/h/Actualize/mini_capstone/db/migrate/20181023000817_add_supplier_id_to_products.rb",
@@ -619,9 +523,7 @@
 		"/Users/h/Actualize/contacts_app/app/controllers/application_controller.rb",
 		"/www/db/tables/dt_user/col.txt",
 		"/Users/h/Actualize/contacts_app/10-10-2018 contacts_app.txt",
-		"/Users/h/Actualize/mini_capstone/app/controllers/application_controller.rb",
 		"/Users/h/Actualize/params-security-exercise/app/controllers/application_controller.rb",
-		"/Users/h/Actualize/mini_capstone/db/seeds.rb",
 		"/Users/h/Library/Application Support/Sublime Text 3/Packages/User/Sublime Preferences 2018-10-11",
 		"/Users/h/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/Users/h/Desktop/paths.txt",
@@ -691,29 +593,7 @@
 		"/www/ref/entities/uni/character-palette/index.html",
 		"/www/ref/entities/uni/character-palette/class/CharacterPalette.php",
 		"/www/ref/entities/uni/character-palette/api.php",
-		"/Users/h/Settings/misc/price/fedloan/class/PaymentForm.php",
-		"/www/univ/js/FuncDebug.js",
-		"/Users/h/Settings/misc/price/pay/formats/txt/revised/2017-12-31_2018-01-13_SH.txt",
-		"/Users/h/Settings/misc/price/pay/formats/txt/2017-10-22_2017-11-04_SH.txt",
-		"/Users/h/Settings/misc/price/pay/formats/txt/2017-07-02_2017-07-15_SH.txt",
-		"/www/ref/entities/uni/character-palette/static/style.css",
-		"/Users/h/Actualize/Career_Support/Career_Motivations.txt",
-		"/Users/h/Actualize/test.txt",
-		"/Users/h/Settings/misc/price/pay/formats/txt/revised/2017-01-01_2017-01-14_SH.txt",
-		"/Users/h/Settings/misc/price/pay/formats/txt/2013-02-25_2013-03-09_DT.txt",
-		"/Users/h/Settings/misc/price/pay/formats/txt/revised/2016-12-18_2016-12-31_SH.txt",
-		"/Users/h/Settings/misc/price/pay/class/PayStatement.php",
-		"/www/ref/entities/uni/character-palette/static/characterPaletteUtil.js",
-		"/Users/h/Settings/misc/price/fedloan/inbox/inc/lookup.php",
-		"/Users/h/Settings/misc/price/fedloan/inbox/index.php",
-		"/Users/h/Settings/misc/price/pay/formats/txt/2017-12-31_2018-01-13_SH.txt",
-		"/Users/h/Settings/misc/price/fedloan/details/2017-12-13.txt",
-		"/Users/h/Settings/misc/price/pay/formats/txt/2017-03-12_2017-03-25_SH.txt",
-		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2017-01-15/apple_health_export/export.xml",
-		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2017-01-15/apple_health_export/export_cda.xml",
-		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2017-06-04/apple_health_export/export_cda.xml",
-		"/Users/h/Library/Mobile Documents/M6HJR9W95L~com~textasticapp~textastic/Documents/util/health/2016-12-04_ds/apple_health_export/export_cda.xml",
-		"/www/ref/wifi/local/addr2.re"
+		"/Users/h/Settings/misc/price/fedloan/class/PaymentForm.php"
 	],
 	"find":
 	{
@@ -721,7 +601,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 113.0,
+		"height": 116.0,
 		"where_history":
 		[
 		]
@@ -731,6 +611,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"recipe",
 			"jwt",
 			"image_url"
 		],
@@ -750,100 +631,63 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "public/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 926,
+						"buffer_size": 3923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								539,
-								539
+								3768,
+								3768
 							]
 						],
 						"settings":
 						{
-							"SL.39.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"SL.50.region_keys":
+							"SL.143.region_keys":
 							[
 							],
-							"syntax": "Packages/Ruby.tmLanguage"
+							"syntax": "Packages/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1888.5,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Gemfile",
+					"file": "app/models/image.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1577,
+						"buffer_size": 117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								50,
+								50
 							]
 						],
 						"settings":
 						{
-							"SL.121.region_keys":
+							"SL.153.region_keys":
 							[
-								"sublime_linter.protected_regions",
-								"SL.rubocop.Highlights.|544d8e9cd998900ae0d651ddd4f39d18a3f176ccb5ff004fd3fab1bedca98ca6|region.yellowish markup.warning.sublime_linter|32",
-								"SL.rubocop.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 77.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/application_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 878,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								874,
-								874
-							]
-						],
-						"settings":
-						{
-							"SL.123.region_keys":
-							[
-								"sublime_linter.protected_regions"
 							],
 							"syntax": "Packages/Ruby.tmLanguage"
 						},
@@ -855,57 +699,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/controllers/api/carted_products_controller.rb",
+					"buffer": 2,
+					"file": "app/models/supplier.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1080,
+						"buffer_size": 169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								938,
-								938
+								169,
+								169
 							]
 						],
 						"settings":
 						{
-							"SL.214.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 487.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/models/order.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 83,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"SL.219.region_keys":
+							"SL.166.region_keys":
 							[
 								"sublime_linter.protected_regions"
 							],
@@ -919,12 +731,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "db/schema.rb",
+					"buffer": 3,
+					"file": "app/controllers/api/images_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2728,
+						"buffer_size": 56,
 						"regions":
 						{
 						},
@@ -937,414 +749,96 @@
 						],
 						"settings":
 						{
-							"SL.102.region_keys":
+							"SL.154.region_keys":
 							[
-								"sublime_linter.protected_regions"
 							],
-							"syntax": "Packages/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "db/seeds.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1714,
-								1714
-							]
-						],
-						"settings":
-						{
-							"SL.78.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 629.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 7,
-					"file": "app/controllers/api/products_controller.rb",
+					"buffer": 4,
+					"file": "public/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1701,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								716,
-								685
+								676,
+								676
 							]
 						],
 						"settings":
 						{
-							"SL.40.region_keys":
+							"SL.146.region_keys":
 							[
 								"sublime_linter.protected_regions"
 							],
-							"SL.55.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"SL.99.region_keys":
-							[
-							],
-							"syntax": "Packages/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/controllers/api/users_controller.rb",
+					"buffer": 5,
+					"file": "app/views/api/products/_product.json.jbuilder",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 440,
+						"buffer_size": 429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								369,
+								369
 							]
 						],
 						"settings":
 						{
-							"SL.119.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/controllers/api/orders_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 823,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								723,
-								723
-							]
-						],
-						"settings":
-						{
-							"SL.135.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 400.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "app/models/user.rb",
-					"semi_transient": false,
+					"buffer": 6,
+					"file": "app/views/api/products/index.json.jbuilder",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 206,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"SL.120.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/models/carted_product.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"SL.211.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"syntax": "Packages/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "app/models/product.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								735,
-								735
-							]
-						],
-						"settings":
-						{
-							"SL.220.region_keys":
-							[
-							],
-							"syntax": "Packages/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 606.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 13,
-					"file": "app/views/api/carted_products/_carted_product.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "app/views/api/carted_products/show.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 77,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "app/views/api/carted_products/index.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								12
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "app/views/api/carted_products/destroy.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "app/views/api/orders/_order.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 161,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "app/views/api/orders/index.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 91,
+						"buffer_size": 101,
 						"regions":
 						{
 						},
@@ -1363,38 +857,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "app/views/api/orders/show.json.jbuilder",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"SL.97.region_keys":
-							[
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1439,8 +902,8 @@
 		"rows":
 		[
 			0.0,
-			0.403312306531,
-			0.763926952828,
+			0.536678085635,
+			0.593625693835,
 			1.0
 		]
 	},
@@ -1470,6 +933,38 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"su",
+				"app/models/supplier.rb"
+			],
+			[
+				"image",
+				"app/controllers/api/images_controller.rb"
+			],
+			[
+				"ima",
+				"app/models/image.rb"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"pro",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"products",
+				"app/controllers/products_controller.rb"
+			]
 		],
 		"width": 0.0
 	},
@@ -1491,7 +986,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 2,
 	"settings":
 	{
 	},
@@ -1499,7 +994,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 279.0,
+	"side_bar_width": 514.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
