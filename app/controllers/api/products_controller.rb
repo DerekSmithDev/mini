@@ -1,5 +1,5 @@
 class Api::ProductsController < ApplicationController
-  before_action :authenticate_admin, except: [:index, :show]
+#  before_action :authenticate_admin, except: [:index, :show]
 
   def index
     @products = Product.all
@@ -35,10 +35,10 @@ class Api::ProductsController < ApplicationController
       supplier_id: params["supplier_id"]
       )
     if @product.save
-      Image.create(
-        url: params[:image_url],
-        product_id: @product.id
-      )
+    #   Image.create(
+    #     url: params[:image_url],
+    #     product_id: @product.id
+    #   )
       render "show.json.jbuilder"
     else
       render json: {errors: @product.errors.full_messages}, status: 422
